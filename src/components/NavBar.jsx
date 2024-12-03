@@ -15,6 +15,12 @@ function NavBar() {
             >
             Teams
             </NavLink>
+            <NavLink
+            to="/circuits"
+            className="nav-link"
+            >
+            Circuits
+            </NavLink>
         </nav>
     );
 };

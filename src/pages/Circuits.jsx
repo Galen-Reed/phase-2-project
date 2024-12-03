@@ -1,21 +1,20 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import DriverCard from "../components/DriverCard";
 
-function Home() {
+function Circuits() {
+
+
 
     return (
         <div>
             <header>
-                {<NavBar />}
+                <NavBar />
             </header>
             <main>
-                <h1>Home</h1>
-                <DriverCard />
+                Circuits!
             </main>
         </div>
     )
-
 }
 
-export default Home;
+export default Circuits;

@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./pages/Home";
 import Teams from "./pages/Teams";
+import Circuits from "./pages/Circuits";
 
 const routes = [
     {
@@ -10,6 +11,10 @@ const routes = [
     {
         path: "/teams",
         element: <Teams />
+    },
+    {
+        path: "/circuits",
+        element: <Circuits />
     },
 ];
 
