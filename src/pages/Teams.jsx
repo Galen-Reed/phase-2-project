@@ -24,7 +24,7 @@ function Teams() {
                 <h1>Teams</h1>
                 {
                     teams.map((team) => (
-                       <TeamCard />
+                       <TeamCard name={team.name} key={team.id} points={team.points} principal={team.principal}/>
                     ))
                 }
             </main>
