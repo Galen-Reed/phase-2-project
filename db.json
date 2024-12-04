@@ -100,7 +100,7 @@
         "id": 17,
         "name": "Franco Colapinto",
         "points": 5,
-        "nationality": "08100000000"
+        "nationality": "Argentina"
       },
       {
         "id": 18,
@@ -112,13 +112,13 @@
         "id": 19,
         "name": "Liam Lawson",
         "points": 4,
-        "nationality": "08100000000"
+        "nationality": "New Zealand"
       },
       {
         "id": 20,
         "name": "Valterri Bottas",
         "points": 0,
-        "nationality": "08100000000"
+        "nationality": "Finland"
       }
     ],
     "teams": [

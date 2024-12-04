@@ -1,12 +1,13 @@
 import React from "react"
 
-function DriverCard() {
+function DriverCard({ name, nationality, points}) {
 
 
     return ( 
         <div>
-            <h2>Driver Name</h2>
-            <p>Driver's points</p>
+            <h2>{name}</h2>
+            <p>{points} pts</p>
+            <p>{nationality}</p>
         </div>
     )
 }
