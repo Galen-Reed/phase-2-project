@@ -1,249 +1,248 @@
 {
-    "drivers": [
-      {
-        "id": 1,
-        "name": "Lando Norris",
-        "points": 349,
-        "nationality": "United Kingdom"
-      },
-      {
-        "id": 2,
-        "name": "Oscar Piastri",
-        "points": 291,
-        "nationality": "Australia"
-      },
-      {
-        "id": 3,
-        "name": "Max Verstappen",
-        "points": 429,
-        "nationality": "Netherlands"
-      },
-      {
-        "id": 4,
-        "name": "Sergio Perez",
-        "points": 152,
-        "nationality": "Mexico"
-      },
-      {
-        "id": 5,
-        "name": "Charles Leclerc",
-        "points": 341,
-        "nationality": "Monaco"
-      },
-      {
-        "id": 6,
-        "name": "Carlos Sainz",
-        "points": 272,
-        "nationality": "Spain"
-      },
-      {
-        "id": 7,
-        "name": "George Russell",
-        "points": 235,
-        "nationality": "United Kingdom"
-      },
-      {
-        "id": 8,
-        "name": "Lewis Hamilton",
-        "points": 211,
-        "nationality": "United Kingdom"
-      },
-      {
-        "id": 9,
-        "name": "Fernando Alonso",
-        "points": 68,
-        "nationality": "Spain"
-      },
-      {
-        "id": 10,
-        "name": "Nico Hulkenberg",
-        "points": 37,
-        "nationality": "Germany"
-      },
-      {
-        "id": 11,
-        "name": "Pierre Gasly",
-        "points": 36,
-        "nationality": "France"
-      },
-      {
-        "id": 12,
-        "name": "Yuki Tsunoda",
-        "points": 30,
-        "nationality": "Japan"
-      },
-      {
-        "id": 13,
-        "name": "Lance Stroll",
-        "points": 30,
-        "nationality": "Canada"
-      },
-      {
-        "id": 14,
-        "name": "Esteban Ocon",
-        "points": 23,
-        "nationality": "France"
-      },
-      {
-        "id": 15,
-        "name": "Kevin Magnussen",
-        "points": 16,
-        "nationality": "Denmark"
-      },
-      {
-        "id": 16,
-        "name": "Alex Albon",
-        "points": 12,
-        "nationality": "Thailand"
-      },
-      {
-        "id": 17,
-        "name": "Franco Colapinto",
-        "points": 5,
-        "nationality": "Argentina"
-      },
-      {
-        "id": 18,
-        "name": "Zhou Guanyu",
-        "points": 4,
-        "nationality": "Chinese"
-      },
-      {
-        "id": 19,
-        "name": "Liam Lawson",
-        "points": 4,
-        "nationality": "New Zealand"
-      },
-      {
-        "id": 20,
-        "name": "Valterri Bottas",
-        "points": 0,
-        "nationality": "Finland"
-      }
-    ],
-    "teams": [
-      {
-        "id": 1,
-        "name": "Red Bull Racing",
-        "points": 581,
-        "principal": "Christian Horner"
-      },
-      {
-        "id": 2,
-        "name": "McLaren",
-        "points": 640,
-        "principal": "Zak Brown"
-      },
-      {
-        "id": 3,
-        "name": "Ferrari",
-        "points": 619,
-        "principal": "Frédéric Vasseur"
-      },
-      {
-        "id": 4,
-        "name": "Mercedes",
-        "points": 446,
-        "principal": "Toto Wolff"
-      },
-      {
-        "id": 5,
-        "name": "Aston Martin",
-        "points": 92,
-        "principal": "Mike Krack"
-      },
-      {
-        "id": 6,
-        "name": "Alpine",
-        "points": 59,
-        "principal": "Oliver Oakes"
-      },
-      {
-        "id": 7,
-        "name": "Haas",
-        "points": 54,
-        "principal": "Ayao Komatsu"
-      },
-      {
-        "id": 8,
-        "name": "RB",
-        "points": 46,
-        "principal": "Laurent Mekies"
-      },
-      {
-        "id": 9,
-        "name": "Williams",
-        "points": 17,
-        "principal": "James Vowles"
-      },
-      {
-        "id": 10,
-        "name": "Kick Sauber",
-        "points": 4,
-        "principal": "Mattia Binotto"
-      }
-    ],
-    "gp_circuits": [
-      {
-        "id": 1,
-        "name": "Bahrain",
-        "location": "Sakhir, Bahrain",
-        "link": "https://en.wikipedia.org/wiki/Bahrain_Grand_Prix"
-      },
-      {
-        "id": 2,
-        "name": "Saudi Arabian",
-        "location": "Jeddah, Saudi Arabia",
-        "link": "https://en.wikipedia.org/wiki/Saudi_Arabian_Grand_Prix"
-      },
-      {
-        "id": 3,
-        "name": "Australian",
-        "location": "Melbourne, Australia",
-        "link": "https://en.wikipedia.org/wiki/Australian_Grand_Prix"
-      },
-      {
-        "id": 4,
-        "name": "Japanese",
-        "location": "Suzuka, Japan",
-        "link": "https://en.wikipedia.org/wiki/Japanese_Grand_Prix"
-      },
-      {
-        "id": 5,
-        "name": "Chinese",
-        "location": "Shanghai, China",
-        "link": "https://en.wikipedia.org/wiki/Chinese_Grand_Prix"
-      },
-      {
-        "id": 6,
-        "name": "Miami",
-        "location": "Florida, United States",
-        "link": "https://en.wikipedia.org/wiki/Miami_Grand_Prix"
-      },
-      {
-        "id": 7,
-        "name": "Imola",
-        "location": "Imola, Italy",
-        "link": "https://en.wikipedia.org/wiki/Emilia_Romagna_Grand_Prix"
-      },
-      {
-        "id": 8,
-        "name": "Monaco",
-        "location": "Monte Carlo, Monaco",
-        "link": "https://en.wikipedia.org/wiki/Monaco_Grand_Prix"
-      },
-      {
-        "id": 9,
-        "name": "Canadian",
-        "location": "Montreal, Canada",
-        "link": "https://en.wikipedia.org/wiki/Canadian_Grand_Prix"
-      },
-      {
-        "id": 10,
-        "name": "Spanish",
-        "location": "Barcelona, Spain",
-        "link": "https://en.wikipedia.org/wiki/Spanish_Grand_Prix"
-      }
-    ]
-  }
-  
+  "drivers": [
+    {
+      "id": "1",
+      "name": "Lando Norris",
+      "points": 349,
+      "nationality": "United Kingdom"
+    },
+    {
+      "id": "2",
+      "name": "Oscar Piastri",
+      "points": 291,
+      "nationality": "Australia"
+    },
+    {
+      "id": "3",
+      "name": "Max Verstappen",
+      "points": 429,
+      "nationality": "Netherlands"
+    },
+    {
+      "id": "4",
+      "name": "Sergio Perez",
+      "points": 152,
+      "nationality": "Mexico"
+    },
+    {
+      "id": "5",
+      "name": "Charles Leclerc",
+      "points": 341,
+      "nationality": "Monaco"
+    },
+    {
+      "id": "6",
+      "name": "Carlos Sainz",
+      "points": 272,
+      "nationality": "Spain"
+    },
+    {
+      "id": "7",
+      "name": "George Russell",
+      "points": 235,
+      "nationality": "United Kingdom"
+    },
+    {
+      "id": "8",
+      "name": "Lewis Hamilton",
+      "points": 211,
+      "nationality": "United Kingdom"
+    },
+    {
+      "id": "9",
+      "name": "Fernando Alonso",
+      "points": 68,
+      "nationality": "Spain"
+    },
+    {
+      "id": "10",
+      "name": "Nico Hulkenberg",
+      "points": 37,
+      "nationality": "Germany"
+    },
+    {
+      "id": "11",
+      "name": "Pierre Gasly",
+      "points": 36,
+      "nationality": "France"
+    },
+    {
+      "id": "12",
+      "name": "Yuki Tsunoda",
+      "points": 30,
+      "nationality": "Japan"
+    },
+    {
+      "id": "13",
+      "name": "Lance Stroll",
+      "points": 30,
+      "nationality": "Canada"
+    },
+    {
+      "id": "14",
+      "name": "Esteban Ocon",
+      "points": 23,
+      "nationality": "France"
+    },
+    {
+      "id": "15",
+      "name": "Kevin Magnussen",
+      "points": 16,
+      "nationality": "Denmark"
+    },
+    {
+      "id": "16",
+      "name": "Alex Albon",
+      "points": 12,
+      "nationality": "Thailand"
+    },
+    {
+      "id": "17",
+      "name": "Franco Colapinto",
+      "points": 5,
+      "nationality": "Argentina"
+    },
+    {
+      "id": "18",
+      "name": "Zhou Guanyu",
+      "points": 4,
+      "nationality": "Chinese"
+    },
+    {
+      "id": "19",
+      "name": "Liam Lawson",
+      "points": 4,
+      "nationality": "New Zealand"
+    },
+    {
+      "id": "20",
+      "name": "Valterri Bottas",
+      "points": 0,
+      "nationality": "Finland"
+    }
+  ],
+  "teams": [
+    {
+      "id": "1",
+      "name": "Red Bull Racing",
+      "points": 581,
+      "principal": "Christian Horner"
+    },
+    {
+      "id": "2",
+      "name": "McLaren",
+      "points": 640,
+      "principal": "Zak Brown"
+    },
+    {
+      "id": "3",
+      "name": "Ferrari",
+      "points": 619,
+      "principal": "Frédéric Vasseur"
+    },
+    {
+      "id": "4",
+      "name": "Mercedes",
+      "points": 446,
+      "principal": "Toto Wolff"
+    },
+    {
+      "id": "5",
+      "name": "Aston Martin",
+      "points": 92,
+      "principal": "Mike Krack"
+    },
+    {
+      "id": "6",
+      "name": "Alpine",
+      "points": 59,
+      "principal": "Oliver Oakes"
+    },
+    {
+      "id": "7",
+      "name": "Haas",
+      "points": 54,
+      "principal": "Ayao Komatsu"
+    },
+    {
+      "id": "8",
+      "name": "RB",
+      "points": 46,
+      "principal": "Laurent Mekies"
+    },
+    {
+      "id": "9",
+      "name": "Williams",
+      "points": 17,
+      "principal": "James Vowles"
+    },
+    {
+      "id": "10",
+      "name": "Kick Sauber",
+      "points": 4,
+      "principal": "Mattia Binotto"
+    }
+  ],
+  "gp_circuits": [
+    {
+      "id": "1",
+      "name": "Bahrain",
+      "location": "Sakhir, Bahrain",
+      "link": "https://en.wikipedia.org/wiki/Bahrain_Grand_Prix"
+    },
+    {
+      "id": "2",
+      "name": "Saudi Arabian",
+      "location": "Jeddah, Saudi Arabia",
+      "link": "https://en.wikipedia.org/wiki/Saudi_Arabian_Grand_Prix"
+    },
+    {
+      "id": "3",
+      "name": "Australian",
+      "location": "Melbourne, Australia",
+      "link": "https://en.wikipedia.org/wiki/Australian_Grand_Prix"
+    },
+    {
+      "id": "4",
+      "name": "Japanese",
+      "location": "Suzuka, Japan",
+      "link": "https://en.wikipedia.org/wiki/Japanese_Grand_Prix"
+    },
+    {
+      "id": "5",
+      "name": "Chinese",
+      "location": "Shanghai, China",
+      "link": "https://en.wikipedia.org/wiki/Chinese_Grand_Prix"
+    },
+    {
+      "id": "6",
+      "name": "Miami",
+      "location": "Florida, United States",
+      "link": "https://en.wikipedia.org/wiki/Miami_Grand_Prix"
+    },
+    {
+      "id": "7",
+      "name": "Imola",
+      "location": "Imola, Italy",
+      "link": "https://en.wikipedia.org/wiki/Emilia_Romagna_Grand_Prix"
+    },
+    {
+      "id": "8",
+      "name": "Monaco",
+      "location": "Monte Carlo, Monaco",
+      "link": "https://en.wikipedia.org/wiki/Monaco_Grand_Prix"
+    },
+    {
+      "id": "9",
+      "name": "Canadian",
+      "location": "Montreal, Canada",
+      "link": "https://en.wikipedia.org/wiki/Canadian_Grand_Prix"
+    },
+    {
+      "id": "10",
+      "name": "Spanish",
+      "location": "Barcelona, Spain",
+      "link": "https://en.wikipedia.org/wiki/Spanish_Grand_Prix"
+    }
+  ]
+}
