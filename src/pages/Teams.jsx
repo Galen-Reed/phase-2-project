@@ -21,7 +21,8 @@ function Teams() {
                 <NavBar />
             </header>
             <main>
-                <h1>Teams</h1>
+                <h1>Constructor Championship</h1>
+                <br />
                 {
                     teams.map((team) => (
                        <TeamCard name={team.name} key={team.id} points={team.points} principal={team.principal}/>

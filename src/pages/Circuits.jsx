@@ -22,7 +22,7 @@ function Circuits() {
                     <main>
                         <h2>{circuit.name} Grand Prix</h2>
                         <p>{circuit.location}</p>
-                        <a href={circuit.link} target="_blank">Learn more about the {circuit.name} Grand Prix</a>
+                        <a href={circuit.link} rel="noreferrer" target="_blank">Learn more about the {circuit.name} Grand Prix</a>
                     </main>
                 ))
             }
