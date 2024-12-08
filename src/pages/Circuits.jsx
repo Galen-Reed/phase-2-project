@@ -18,18 +18,21 @@ function Circuits() {
     }
 
     return (
-        <div>
+        <div className="app">
             <header>
                 <NavBar />
             </header>
             <main>
-                {circuitData.map((circuit) => (
-                        <div>
+                <h1 className="circuit-title">Grand Prix Circuits</h1>
+                <div className="circuit-container">
+                    {circuitData.map((circuit) => (
+                        <div key={circuit.id}>
                             <h2>{circuit.name} Grand Prix</h2>
                             <p>{circuit.location}</p>
                             <a href={circuit.link} rel="noreferrer" target="_blank">Learn more about the {circuit.name} Grand Prix</a>
                         </div>
-                ))}
+                    ))}
+                </div>
             <CircuitForm addCircuit={handleNewCircuit}/>
             </main>
         </div>

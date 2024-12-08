@@ -1,0 +1,31 @@
+.circuit-title {
+    text-align: center;
+    color: #FF2800;
+    font-size: 60px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    text-shadow: 1px 1px 0 black, 2px 1px 0 black, 2px 2px 0 black,
+    2px 2px 0 black;
+}
+
+.circuit-container {
+    margin: auto;
+    width: 50%;
+    border: black;
+    padding: 10px;
+    background-color: lightgrey;
+    opacity: 0.95;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.circuit-form {
+    margin: auto;
+    width: 50%;
+    border: black;
+    padding: 10px;
+    background-color: lightgrey;
+    opacity: 0.95;
+    border-radius: 25px;
+    border: 2px solid black;
+}

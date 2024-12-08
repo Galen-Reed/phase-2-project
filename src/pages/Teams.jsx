@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import NavBar from "../components/NavBar";
 import TeamCard from "../components/TeamCard";
 
+
 function Teams() {
 
     const [teams, setTeams] = useState([]);
@@ -12,22 +13,20 @@ function Teams() {
         .then((data) => setTeams(data))
     }, [])
 
-
-    console.log(teams);
-
     return (
-        <div>
+        <div className="app">
             <header>
                 <NavBar />
             </header>
             <main>
-                <h1>Constructor Championship</h1>
-                <br />
-                {
-                    teams.map((team) => (
-                       <TeamCard name={team.name} key={team.id} points={team.points} principal={team.principal}/>
-                    ))
-                }
+                <h1 className="team-title">Constructor Championship</h1>
+                <div className='team-container'>
+                    {
+                        teams.map((team) => (
+                        <TeamCard name={team.name} key={team.id} points={team.points} principal={team.principal}/>
+                        ))
+                    }
+                </div>
             </main>
         </div>
     )

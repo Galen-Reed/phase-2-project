@@ -12,12 +12,12 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="app-home">
       <header>
         <NavBar />
       </header>
-      <main>
-        <h1>Home</h1>
+      <main  className="main">
+        <h1 className="f1-dash">Formula One Dashboard</h1>
         <DriverCard drivers={drivers} />
       </main>
     </div>

@@ -21,7 +21,7 @@ function CircuitForm({ addCircuit }) {
             .then((newCircuit) => {
                 addCircuit(newCircuit)
             });
-        setFormData({ name: "", image: "", price: ""});
+        setFormData({ name: "", location: "", link: ""});
     }
 
     function handleChange(e) {
@@ -32,7 +32,7 @@ function CircuitForm({ addCircuit }) {
     }
 
     return (
-        <div>
+        <div className='circuit-form'>
             <h2>New Grand Prix</h2>
             <form onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="Enter Grand Prix Name" value={formData.name} onChange={handleChange}/>

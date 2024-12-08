@@ -1,0 +1,19 @@
+.f1-dash {
+    text-align: center;
+    color: #FF2800;
+    font-size: 60px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    text-shadow: 1px 1px 0 black, 2px 1px 0 black, 2px 2px 0 black,
+    2px 2px 0 black;
+}
+
+.app-home{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/736x/11/c3/56/11c356a59cc2c078e46c4c96cd9499f1.jpg");
+    opacity: 0.75;
+  }
