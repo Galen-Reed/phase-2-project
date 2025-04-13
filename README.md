@@ -1,6 +1,6 @@
 # Formula One Dashboard 
 
-F1 Dashboard is a React-based application that lets users explore information about Formula One, including drivers, teams, and circuits. It features an interactive UI with the ability to add new Grand Prix circuits via a controlled form. The app is powered by a JSON server, which acts as a backend for storing and retreiving data.
+F1 Dashboard is a React-based application that lets users explore information about Formula One, including drivers, teams, and circuits. It features an interactive UI with the ability to add new Grand Prix circuits via a controlled form. The app is powered by a JSON server, which acts as a backend for storing and retrieving data.
 
 ## Features
 ### Home Page: Drivers
